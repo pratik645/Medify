@@ -1,71 +1,69 @@
-# Getting Started with Create React App
+Pratik-MEDIFY - Medical Center Slot Booking Platform
+Overview
+MEDIFY is a React-based web application that allows users to find medical centers in specific states and cities across the USA and book appointments. The platform provides an intuitive interface for searching medical facilities, viewing available time slots, and managing bookings.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Landing Page:
 
-## Available Scripts
+Navigation bar with links to Find Doctors, Hospitals, Medicines, and more.
+Search functionality with dropdowns for selecting state and city.
+Search Results Page:
 
-In the project directory, you can run:
+Listings of available medical centers based on user-selected location.
+Option to book appointments directly from the results.
+Booking Interface:
 
-### `npm start`
+Calendar-like interface for selecting appointment dates.
+Availability of time slots for booking within one week in advance.
+My Bookings Page:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Personalized view displaying all user bookings with details such as medical center name, appointment date, and time.
+Responsive Design:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Fully responsive design that adheres to modern web standards.
+Carousel Implementation:
 
-### `npm test`
+Engaging carousels using the Swiper library for enhanced user experience.
+Technologies Used
+Frontend: React.js
+Styling: CSS, Swiper for carousels
+API Calls: Axios
+State Management: React Hooks
+Data Persistence: localStorage
+API Endpoints
+The application interacts with the following backend endpoints:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Get a list of all states: https://meddata-backend.onrender.com/states
+Get a list of all cities for a particular state: https://meddata-backend.onrender.com/cities/:state
+Get a list of all medical centers based on state and city: https://meddata-backend.onrender.com/data?state=<state-name>&city=<city-name>
+MEDIFY - Medical Center Slot Booking Platform Overview MEDIFY is a React-based web application that allows users to find medical centers in specific states and cities across the USA and book appointments. The platform provides an intuitive interface for searching medical facilities, viewing available time slots, and managing bookings.
 
-### `npm run build`
+Features Landing Page:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Navigation bar with links to Find Doctors, Hospitals, Medicines, and more. Search functionality with dropdowns for selecting state and city. Search Results Page:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Listings of available medical centers based on user-selected location. Option to book appointments directly from the results. Booking Interface:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Calendar-like interface for selecting appointment dates. Availability of time slots for booking within one week in advance. My Bookings Page:
 
-### `npm run eject`
+Personalized view displaying all user bookings with details such as medical center name, appointment date, and time. Responsive Design:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Fully responsive design that adheres to modern web standards. Carousel Implementation:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Engaging carousels using the Swiper library for enhanced user experience. Technologies Used Frontend: React.js Styling: CSS, Swiper for carousels API Calls: Axios State Management: React Hooks Data Persistence: localStorage API Endpoints The application interacts with the following backend endpoints:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Get a list of all states: https://meddata-backend.onrender.com/states Get a list of all cities for a particular state: https://meddata-backend.onrender.com/cities/:state Get a list of all medical centers based on state and city: https://meddata-backend.onrender.com/data?state=&city= Installation To run this project locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the repository:
 
-## Learn More
+Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start Open your browser and navigate to http://localhost:3000.
 
-### Code Splitting
+Deployment The application is deployed on Vercel. You can access it here.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Usage Navigate to the landing page. Use the search section to select a state and city. View the list of available medical centers. Select a center to book an appointment. Check your bookings on the My Bookings page. Contributing If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Medify" 
+Contact For any questions or suggestions, please contact Pratik P.
